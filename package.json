@@ -1,0 +1,30 @@
+{
+  "name": "gtd",
+  "displayName": "GTD",
+  "description": "Theme that gets things out of your way so you can get things done.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "monochrome",
+    "minimalist"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "GTD (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-color-scheme.json"
+      },
+      {
+        "label": "GTD (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/light-color-scheme.json"
+      }
+    ]
+  }
+}
